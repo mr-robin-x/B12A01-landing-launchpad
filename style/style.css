@@ -14,6 +14,7 @@
 body{
     margin:0;
     padding:0;
+    background-color: #F5F6F8;
 }
 
 /* navbar-section-starts-here */
@@ -120,3 +121,47 @@ body{
     font-weight: 300;
 }
 /* product-user-section-ends-here */
+/* user-feedback-section-starts-here */
+.users-feedback-section{
+    max-width: 1140px;
+    margin:137px auto;
+    
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:50px;
+}
+.user-feedback-title{
+    font-size:20px;
+    font-weight: bold;
+}
+.user-feedback-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.reviewer-details{
+    font-size: 18px;
+    font-weight: 350;
+    margin:0;
+}
+.submit-date{
+    font-size:18px;
+    font-weight: 250;
+    margin:0;
+}
+.user-description{
+    display:flex;
+    gap:15px;
+}.user-info{
+    width: 330px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #ffffff;
+    height: 220px;
+    padding-left:20px;
+    padding-top:20px;
+}.container{
+    display: flex;
+    gap:30px;
+}
