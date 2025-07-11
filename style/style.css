@@ -74,6 +74,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.right-side img{
+    border-radius: 48px;
+}
 .action-title{
     font-size:42px;
     font-weight: 700;
@@ -90,7 +93,7 @@ body{
     background-color: rgba(78, 71, 255, 0.1);
     max-width: 1140px;
     margin:0 auto;
-    height:306px;
+    height:370px;
     text-align: center;
     padding:50px 0;
     border-radius: 24px;
@@ -155,13 +158,101 @@ body{
     display:flex;
     gap:15px;
 }.user-info{
-    width: 330px;
+    width: 360px;
     background-color: #ffffff;
     box-shadow: 5px 5px 5px #ffffff;
     height: 220px;
     padding-left:20px;
     padding-top:20px;
+    border-radius: 14px;
 }.container{
     display: flex;
     gap:30px;
+    align-items: center;
+    justify-content: space-around;
 }
+/* user-feedback-section-end-here */
+/* middle-banner-section-starts-from-here */
+.middle-banner-section{
+    background-color: #ffffff;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    border-radius: 14px;
+    
+}
+.webflow{
+    padding: 50px 100px 50px 100px;
+    
+}
+.webflow-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.webflow-sub-title{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.webflow img{
+    margin-top: 20px;
+    border-radius: 48px;
+
+}
+/* middle-banner-section-ends-here */
+/* touch-section-starts-from-here */
+ .touch-section{
+    max-width: 1140px;
+    margin: 137px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .touch-section-title{
+    font-size: 97px;
+    font-weight: 700;
+ }
+ .touch-right-side label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+
+ }
+ 
+ .touch-right-side input, .touch-right-side textarea{
+    width:100%;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+ }
+ .touch-left-side{
+    width: 50%;
+ }
+ .touch-right-side{
+    width:50%;
+    padding:0;
+    
+ }
+ /* share-style */
+ .full-width{
+    width:100%;
+    margin-top:19px;
+    padding: 19px 201px;
+    
+ }
+ *{
+    box-sizing: border-box;
+ }
+ label, input, textarea{
+    font-family: 'inter'
+
+ }
+ /* share-style eds */
+ 
+/* touch-section-ends-from-here */
