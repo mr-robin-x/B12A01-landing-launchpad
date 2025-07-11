@@ -18,11 +18,13 @@ body{
 }
 
 /* navbar-section-starts-here */
-.navbar-banner{
+.header-section{
     background-image: url(../Assets/Hero-bg.png);
     max-width: 1440px;
     margin: 0 auto;
-    height: 690px;
+}
+.navbar-and-banner-section{
+    padding: 0 150px 150px 150px;
 }
 .nav-section{
     display:flex;
@@ -59,6 +61,7 @@ body{
 
 .banner-section{
     text-align: center;
+
 }
 .banner-heading{
     font-size: 65px;
@@ -73,6 +76,14 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.left-side{
+    width: 40%;
+
+}
+.right-side{
+    width: 33%
 }
 .right-side img{
     border-radius: 48px;
@@ -93,16 +104,19 @@ body{
     background-color: rgba(78, 71, 255, 0.1);
     max-width: 1140px;
     margin:0 auto;
-    height:370px;
+   
     text-align: center;
-    padding:50px 0;
+    padding:10px 0;
     border-radius: 24px;
    
+}
+.product-user-section-container{
+    margin: 50px 80px;
 }
 .centered-title{
     font-size: 38px;
     font-weight: 700;
-    padding-bottom:40px;
+    
 }
 
 .product-user-section-subtitle{
@@ -183,7 +197,7 @@ body{
     
 }
 .webflow{
-    padding: 50px 100px 50px 100px;
+    padding: 13px 100px 73px 100px;
     
 }
 .webflow-title{
@@ -192,7 +206,7 @@ body{
     margin-bottom: 20px;
 }
 .webflow-sub-title{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -218,6 +232,8 @@ body{
     display: block;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size:20px;
+    font-weight: 500;
     
 
 
@@ -227,9 +243,10 @@ body{
     width:100%;
     padding:20px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     border: none;
+    margin-bottom: 19px;
  }
  .touch-left-side{
     width: 50%;
@@ -242,7 +259,6 @@ body{
  /* share-style */
  .full-width{
     width:100%;
-    margin-top:19px;
     padding: 19px 201px;
     
  }
@@ -261,30 +277,40 @@ body{
     background-color: #ffffff;
     max-width: 1440px;
     margin:0 auto;
-    height: 428px;
     text-align: center;
-    padding: 35px 400px 35px
+}
+.footer-section-container{
+    margin: 100px 472px;
+    padding: 104px 0 103px;
 }
 .footer-title{
     font-size: 100px;
     font-weight: 900;
     color: rgba(78, 71, 255, 1);
     margin-bottom:8px;
+    margin-top: 0;
+  
 }
 .footer-description{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 250;
     color:rgba(137, 135, 161, 1);
-    margin-bottom:20px;
+    margin-bottom:23px;
+    margin-top:0;
     
 }
 .footer-section a{
     text-decoration: none;
     display:block;
     text-align:start;
-    color:rgba(137, 135, 161, 1)
+    color:rgba(137, 135, 161, 1);
+    font-family: 'inter';
+    font-size:16px;
 }
 .anchor{
     display:flex;
     justify-content:space-around;
+    
 }
+/* footer-section-ends-here */
+/* All-sections-are-ended */
